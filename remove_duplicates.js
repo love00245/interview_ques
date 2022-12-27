@@ -30,3 +30,13 @@ function remove_duplicates(arr) {
 }
 
 console.log(remove_duplicates(arrOne))
+
+
+//or we can use new set 
+
+
+let arr_1 =[1,2,2,34,4,55,5,5,55,55,6733];
+
+
+
+let sets = new Set(arr_1)
